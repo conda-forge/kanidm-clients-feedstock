@@ -2,7 +2,7 @@
 
 # webauthn-authenticator-rs needs to use openssl at build time.
 # This helps it find it.
-export DYLD_FALLBACK_LIBRARY_PATH="$BUILD_PREFIX/lib"
+export DYLD_FALLBACK_LIBRARY_PATH="$BUILD_PREFIX/lib:$PREFIX/lib"
 
 export OPENSSL_DIR="$PREFIX"
 
