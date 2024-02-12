@@ -4,6 +4,8 @@
 # This helps it find it.
 export DYLD_FALLBACK_LIBRARY_PATH="$BUILD_PREFIX/lib"
 
+export OPENSSL_DIR="$PREFIX"
+
 cargo-bundle-licenses \
     --format yaml \
     --output THIRDPARTY_LICENSES.yaml
