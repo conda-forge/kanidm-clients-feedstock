@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: kanidm-clients
-  version: 1.6.4
+  version: "1.9.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/kanidm/kanidm/archive/refs/tags/v${{ version | replace("rc", "-rc.") }}.tar.gz
-  sha256: 4165a2762d5f5f6db5da34f084788f720d8f225dcbe35e00b650cefb6283bbd3
+  sha256: 470b56245374932b588504c93e55db2f5cc4808b93ccdc3310ea54e4efe37223
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

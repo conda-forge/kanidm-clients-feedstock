@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kanidm-clients-
 
 Home: https://kanidm.com/
 
-Package license: MIT
+Package license: MPL-2.0
 
 Summary: A simple, secure and fast identity management platform
 
